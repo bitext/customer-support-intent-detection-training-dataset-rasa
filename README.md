@@ -64,6 +64,7 @@ Each utterance is enriched with one or more of these tags:
 
 These tags indicate the type of language variation that the utterance expresses. When associated to each utterance, they allow Conversational Designers to customize training datasets to different user profiles with different uses of language. Through these tags, many different datasets can be created to make the resulting assistant more accurate and robust. A bot that sells sneakers should be mainly targeted to younger population that use a more colloquial language; while a classical retail banking bot should be able to handle more formal or polite language.
 
+You can find more details about the linguistic tags [Here](TAGS.md)
 
 Categories and Intents
 ----------------------
