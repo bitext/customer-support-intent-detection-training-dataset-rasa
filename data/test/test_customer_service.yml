@@ -1,1 +1,875 @@
+version: '2.0'
+nlu:
+  - intent: cancel_order
+    examples: |
+      - I have a question about cancelling an order
+      - help canceling the order I have made
+      - I do not know how to cancel an order I have made
+      - where can I cancel the last order I made?
+      - I don't want the last order I made
+      - where could I cancel my order?
+      - I have to cancel the order I made
+      - how could I get information about cancelling orders?
+      - I want information about canceling orders
+      - assistance cancelling an order
+      - is it possible to cancel the last order?
+      - could you give me information about order cancellations?
+      - I need help with canceling the last order
+      - how can I cancel the last order I have made?
+      - how could I find information about cancelling an order?
+      - I would like to know more about order cancellations
+      - could you help me cancel the last order I have made?
+      - I want assistance to cancel the last order
+      - I have a problem with cancelling the order I made
+      - how could I cancel the last order I made?
+      - order cancelation
+      - I want assistance to cancel the order I have made
+      - how do I cancel the last order I have made?
+      - help me cancelling my order
+      - I have a problem with cancelling an order I made
+  - intent: change_order
+    examples: |
+      - I have got to change an item of an order
+      - can you help me removing several items from an order?
+      - could you help me change an order I have made?
+      - I cannot change an item of an order
+      - problem with adding something
+      - where could I find information about changing an order?
+      - I don't know how I could add some items
+      - help to change an order
+      - I want assistance to remove something
+      - remove some items from an order
+      - can you help me changing the order I made?
+      - I cannot remove several items
+      - is it possible to change the order I have made?
+      - I want to remove some items from an order
+      - change an order
+      - I cannot change the last order
+      - is it possible to add some items?
+      - help changing an order
+      - I have a problem with changing my order
+      - could you help me add some items?
+      - I need assistance to change several items of an order
+      - I have problems with removing an item
+      - can you help me remove some items from an order?
+      - I have problems with removing some items
+      - I am trying to change an order I made
+      - I have got to add an item
+      - I want help adding some items to an order
+      - I need assistance to remove an item from an order
+      - is it possible to remove some items?
+      - how can I change the last order I have made?
+      - I need assistance to remove an item
+      - help me adding several items
+      - assistance to add something
+      - I need assistance to add an item
+      - how could I add an item?
+      - would it be possible to change some items of an order?
+      - how do I change several items of an order?
+      - I have a problem with removing something from an order
+      - I don't know how I can add an item to an order
+  - intent: change_shipping_address
+    examples: |
+      - I do not know how I could change my shipping address
+      - I need assistance changing the shipping address
+      - can you tell me about updating the address?
+      - I have errors trying to update my shipping address
+      - want support changing the shipping address
+      - i do not know how to editmy shipping address
+      - I have issues changing my shipping address
+      - assistance changing the shipping address
+      - I want information about a shipping address change
+      - I would like to change my shipping address
+      - I want help changing the shipping address
+      - I don't know what I need to do to change my shipping address
+      - I want help trying to change my shipping address
+      - I have a trouble trying to change the address
+      - the address has changed can i edit it
+      - I need help changing the shipping address
+      - I want to know about changing my shipping address
+      - can you help me change my shipping address?
+      - I do not know how I can change the shipping address
+      - I would like to change the shipping address
+      - information about a shipping address change
+      - I cannot change the shipping address
+      - help me to change my shipping address
+      - I want help to change my shipping address
+      - could you tell me about changing the shipping address?
+      - I try to correct my shipping address
+      - can you tell me about changing my shipping address?
+      - I would like information about changing the shipping address
+      - i want assistance to modify the address
+      - help with a shipping address change
+      - I would like information about changing my shipping address
+      - I want assistance to change my shipping address
+      - supports trying to update my shipping address
+      - I cannot modify the  shipping address
+      - I do not know how I could change the shipping address
+      - I don't know what I have to do to change my shipping address
+      - i have an issue trying to edit my goddamn delivery address
+      - I need help to change the shipping address
+      - could I change the shipping address?
+      - how could I get information about a shipping address change?
+      - I need help to change my shipping address
+  - intent: check_cancellation_fee
+    examples: |
+      - show me the termination fees
+      - I need  assistance to see the termination penalty
+      - I have got to see the termination charge
+      - could you help me check the cancellation fee?
+      - where can I check the cancellation fee?
+      - I need assistance checking the cancellation fees
+      - I don't know how I could check the cancellation fees
+      - I try to check the early termination penalties
+      - how much will you charge me if I break the contract?
+      - i do not know how i can see the early termination charges
+      - show early exit penalty
+      - i cannot find the termination penaltiesi need help
+      - see the termination penalties
+      - I need help checking the cancellation fee
+      - what do i have to do to check the withdrawal charge
+      - can you help me see the withdrawal fee?
+      - how do I check the cancellation fees?
+      - I don't know what I need to do to check the cancellation fee
+      - I do not know what to do to check the cancellation fee
+      - I do not know what to do to check the cancellation fees
+      - I cannot find the early termination fees, can you help me?
+      - how can I check the cancellation fees?
+      - I don't know how I can check the cancellation fee
+      - what do I need to do to see the cancellation penalty?
+      - I don't know what to do to check the cancellation fee
+      - i have got to check the withdrawal fees can uhelp me
+  - intent: check_invoice
+    examples: |
+      - could you help me to take a quick look at my invoice?
+      - I don't know how to find the invoices from last month
+      - I want assistance to find the invoices from June
+      - I need assistance to check my invoices
+      - I have to find my invoices
+      - I want assistance finding the invoices from 7 months ago
+      - could you help me find the invoice from six months ago?
+      - assistance finding the invoice from my last purchase
+      - I need to take a quick look at the invoice from 6 months ago
+      - help finding the invoices from my last purchase
+      - show me the invoices from 10 purchases ago
+      - how could I check the invoices from eleven months ago?
+      - help to find the invoices from October
+      - I don't know what I need to do to check the invoice
+      - how to find the invoices from October?
+      - I need to take a quick look at my invoices
+      - could you help me to find the invoice?
+      - I would like to check the invoices from 10 purchases ago
+      - how to check my invoices?
+      - I do not know how to check the invoices from August
+      - check invoices from last month
+      - checking invoice from January
+      - I do not know how to take a quick look at my invoices
+      - can you help me take a quick look at the invoices from May?
+      - could I check my invoices?
+      - I do not know how I can check the invoices
+      - checking invoice from last month
+      - help me find the invoice
+      - I cannot find the invoices from September
+      - I want help taking a quick look at my invoices
+      - I want to take a quick look at my invoices
+  - intent: check_payment_methods
+    examples: |
+      - I have to see the accepted payment options
+      - I do not know how to check the payment options
+      - i dont know what i need to do to list ur payment options
+      - can you help me checking what payment methods are available?
+      - help checking what payment methods are available
+      - what are your allowed payment methods?
+      - where to check the available payment methods?
+      - will you show me what payment methods you accept?
+      - I want help listing your accepted payment methods
+      - I need assistance to see your accepted payment options
+      - help to check what payment methods are available
+      - I try to check what payment methods you accept
+      - i need help checking what payment methods are allowed
+      - how do i check what damn payment methods are accepted
+      - where to check what payment methods are available?
+      - could you help me to check your allowed payment methods?
+      - tell me your allowed payment methods
+      - I don't know how I could check your allowed payment methods
+      - I do not know how to check your allowed payment methods
+      - i have to check what payment methods are allowed help me
+      - is it possible to check what payment options are accepted?
+      - where could I check what payment methods are available?
+      - I want assistance checking your allowed payment methods
+      - can I check your allowed payment methods?
+      - help me to check your allowed payment methods
+      - seeing accepted payment options
+  - intent: check_refund_policy
+    examples: |
+      - I want to check in what cases can I ask to be refunded
+      - I try to check in what cases can I ask for refunds
+      - help me checking how long refunds usually take
+      - can I check under what circumstances can I ask for refunds?
+      - can you help me to check your refund policy?
+      - assistance to check your money back policy
+      - check under what circumstances can I ask to be refunded
+      - can you show me in what cases can I ask for refunds?
+      - help checking in what cases can I ask to be refunded
+      - how could I check your refund policy?
+      - help checking in what cases can I ask for a refund
+      - help me check in what cases can I ask to be refunded
+      - in what cases can I ask to be refunded?
+      - I need help checking in what cases can I ask for refunds
+      - check in what cases can I ask to be refunded
+      - assistance checking in what cases can I ask for a refund
+      - assistance to check in what cases can I ask for a refund
+      - I don't know how I can check your money back policy
+      - could you help me checking how long refunds take?
+      - I need assistance to check how long refunds usually take
+      - I would like to check your money back policy
+      - I am trying to check in what cases can I ask for a refund
+      - where to check your refund policy?
+      - help me checking in what cases can I ask to be refunded
+      - could you show me your money back policy?
+      - I have got to check your money back policy
+      - what do I have to do to check your refund policy?
+      - in what cases can I ask for refunds?
+      - assistance to check in what cases can I ask to be refunded
+      - could I check in what cases can I ask to be refunded?
+      - I don't know what I need to do to check your refund policy
+      - can I check in what cases can I ask for my money back?
+      - how do I check your money back policy?
+      - can you show me how long refunds usually take?
+      - will you show me in what cases can I ask for refunds?
+      - could I check in what cases can I ask for a refund?
+      - I want assistance checking your refund policy
+  - intent: complaint
+    examples: |
+      - help me file a complaint against your business
+      - I call to file a complaint against your business
+      - I need help to file a complaint against your business
+      - can you help  me making a claim against your business?
+      - I need assistance to file a complaint against your business
+      - i do not know how to make a fucking consumer reclamation
+      - I'm not happy wih ur service help me to file a claim
+      - i want assistance to lodge a customer claim
+      - i need help lodging a claim against ur organization
+      - I am not happy with your work, lodge a complaint
+      - help making a consumer complaint against your company
+      - i need assistance to file a complaint against ur company
+      - I want to make a complaint against your company
+      - can I make a complaint against your business?
+      - want assistance making a damn customer complaint
+      - I don't know what I need to do to file a complaint
+      - can you help me file a complaint?
+      - need assistance to make a consumer claim
+      - help to file a consumer claim against your company
+      - I am calling to file a complaint
+      - help me filing a consumer complaint against ur company
+      - help me filing a complaint
+      - maing claim
+  - intent: contact_customer_service
+    examples: |
+      - how to check at what time customer service available is?
+      - I would like to contact customer service
+      - I am trying to contact customer service
+      - what time is customer service available?
+      - needto speak with customer support how to do it
+      - i need assistance to get in touch with customer support
+      - help me check what hours customer service available is
+      - I am trying to talk with bloody customer assistance
+      - tell me what hours I can contact customer service
+      - how do I check what hours I can contact customer support?
+      - I do not know what I need to do to contact customer service
+      - I have to contact customer service
+      - I want help to contact customer support
+      - I have to check what hours I can contact customer service
+      - can you tell me at what time I can contact customer service?
+      - I have to check at what time customer service available is
+      - i do not know how to get  in touch with customer support
+      - I do not know how I could contact customer service
+      - I do not know what to do to contact customer service
+      - i need help cxalling customer support
+      - I want to speak to customer assistance
+      - I try to check what hours customer service available is
+      - I need to contact customer service
+      - I don't know how to contact customer service
+  - intent: contact_human_agent
+    examples: |
+      - assistance tospeak with an operator
+      - could ya help me to speak to a live agent
+      - help to speak to a person
+      - i dont know what to do to speak with a person
+      - help  me talking to somebody
+      - assistance to contact an agent
+      - I am tring to contact an agent
+      - i want assistancew to talk to somebody
+      - I don't know how I can chat with a person
+      - help to talk with someone
+      - uare not helpful at all can uhelp me to speak to an agent
+      - could you help me contact an agent?
+      - contact an agent
+      - can you help me to talk to an agent?
+      - assistance to talk to somebody
+      - i do not know what i need to do to chat with a live agent
+      - I need assistance to speak with a live agent
+      - could you help me speak with an agent?
+      - want assistance to speak to someone
+      - I don'tknow what to do to talk to an agent
+      - talk with a live agent
+      - help me to speak with an agent
+      - I want to contact an agent
+      - want assistance to speak to a hunan agent
+      - talk to an agent
+      - what do I need to do to talk to an agent?
+      - i dont know what i have to do to speak to somebody
+      - talk to agent
+      - i cannot understand ya help chtting with an assistant
+      - transfer to me an agent
+      - I do not know how I could talk to an agent
+      - I do not know what I need to do to talk to an agent
+      - I want help to contact an agent
+      - I cannot talk to an agent
+      - I want to talk to an agent
+      - could you help me contacting an agent?
+      - speak to an agent
+      - speak to an assistant
+      - I want help talking with somebody
+      - i dont know how i can talk to a live agent
+      - uare not being helpful can uhelp me to speak to a live agent
+      - need help to talk with an agent
+  - intent: create_account
+    examples: |
+      - i dont know what to do to create another standard account
+      - i need assistance to craete a new user account
+      - I need help to open a fucking account
+      - need to creae a different online account how can i do it
+      - I am not your customer yet, I need assistaance registering
+      - I do not know how to register
+      - need help opening a different account
+      - I try to create a new user account
+      - want assistance to open a new freemium account
+      - I want to create an account
+      - I am not an customer, assistance to register
+      - how can I create an account?
+      - can uhelp me to open a new account
+      - want help creating a new user account
+      - can you help me open another account for my fiancee?
+      - I am not an member yet, need help to register
+      - help me to open a different user account
+      - i want hhelp to open another online account for my husband
+      - I have not signed up, I need help to oopen a user account
+      - want assistance opening a new user account for my father
+      - would it be possible to register?
+      - what do i need to do to open a new account
+      - I need assistance to create an online account
+      - I want assistance registering
+      - i have to create a different account
+  - intent: delete_account
+    examples: |
+      - can I delete the account?
+      - I would like information about user account deletions
+      - I want to delete an account
+      - assistance to delete the account
+      - how do i remove my online account
+      - assistance deleting my account
+      - is it possible to delete my account?
+      - I want information about a user account deletion
+      - can I delete an account?
+      - can I remove an account ?
+      - I don't know what to do to cancel a standard account
+      - I would like to delete the account
+      - can you tell me more about user account deletions?
+      - what do I have to do to delete the account?
+      - I need help to delete the account
+      - how to delete the account?
+      - I don't know what I have to do to delete my account
+      - could I delete my account?
+      - I want assistance deleting my account
+      - I do not know how I can cancel an online account
+      - assistance to delete an account
+      - could you help me deleting the account?
+      - help to delete my account
+      - can you tell me about a user account deletion?
+      - i need help cancelling a goddamn secondary account
+      - I want help to close a secondary account
+      - I don't know how to delete the account
+      - I have a problem with my secondary account cancellation
+      - could you tell me about user account deletions?
+  - intent: delivery_options
+    examples: |
+      - could you show me what options for delivery I can choose?
+      - I would like to check what delivery options I have
+      - I am calling to check what delivery options I have
+      - I don't know how I can check what delivery options you offer
+      - I need information about the delivery options
+      - show me what delivery options you offer
+      - I want to check what options for delivery I have
+      - help checking the delivery options
+      - I want help checking the delivery options
+      - could I check what options for delivery are available?
+      - I call to check what delivery options are available
+      - checking the options for delivery
+      - I want help checking the options for delivery
+      - can you help me check what options for delivery I have?
+      - I need to check what options for delivery are available
+      - assistance checking what delivery options I can choose
+      - assistance to check what options for delivery are available
+      - help me checking the delivery options
+      - where do I check what options for delivery I have?
+      - can you show me what delivery options I have?
+      - I do not know how I could check the options for delivery
+      - where could I check what delivery options I have?
+      - help me to check what delivery options are available
+      - how could I get information about the options for delivery?
+      - tell me more about the delivery options
+      - could you show me what delivery options are available?
+      - assistance to check what delivery options I have
+      - where could I check the delivery options?
+      - can I check what delivery options I can choose?
+      - I am calling to check the options for delivery
+      - could you help me checking what options for delivery I have?
+      - will you show me what delivery options I can choose?
+  - intent: delivery_period
+    examples: |
+      - I want help to check how long the delivery takes
+      - where could I check when my item is going to arrive?
+      - where to check how long the delivery takes?
+      - I am trying to check how long the delivery takes
+      - I need help to check how soon can I expect the item
+      - give me information about the delivery period
+      - I am calling to check how soon can I expect the delivery
+      - I need information about the delivery period
+      - will you show me how long the delivery takes?
+      - I am trying to find information about delivery periods
+      - I need help to check when will my item arrive
+      - how could I check when will my item arrive?
+      - where can I get information about delivery periods?
+      - I am trying to find delivery periods
+      - how long does the delivery take?
+      - show me when will my item arrive
+      - I don't know how I could check when will my item arrive
+      - how to check when my item is going to arrive?
+      - I want to know about delivery periods
+      - could you show me when my item is going to arrive?
+      - could you help me to check how long the delivery takes?
+      - can you help me check when my delivery is going to arrive?
+      - how to check when will my item arrive?
+      - assistance to check how soon can I expect the delivery
+      - show me how soon can I expect the delivery
+      - information about the delivery period
+      - how can I check when my item is going to arrive?
+      - could you help me check how soon can I expect the item?
+      - I need help checking when my item is going to arrive
+      - tell me more about the delivery periods
+      - show me how soon can I expect the item
+      - how to check when my delivery is going to arrive?
+      - I want assistance checking how long the delivery takes
+      - where can I find information about the delivery period?
+      - I want to know about the delivery periods
+      - I would like information about the delivery periods
+      - I do not know how to check when my item is going to arrive
+      - what is the delivery period for this order?
+  - intent: edit_account
+    examples: |
+      - can you hepl me correct the details on my profile?
+      - how could I edit the information on my account?
+      - I don't know how I can edit my account
+      - i do not know how i can change the info on my profile
+      - I need help to edit my account
+      - help me editing my personal information
+      - what do I need to do to change the user details?
+      - I have to change the data on my profile, help me
+      - can you help me edit the information on my account?
+      - I need help modifying the user data
+      - want help updating the info on my user profile
+      - I am trying to edit my personal information
+      - help me edit the information on my account
+      - assistance editing the information on my account
+      - I want assistance to edit the information on my account
+      - I have got to edit my account
+      - what do I have to do to edit my personal information?
+      - need help to change my bloody personal details
+      - can I edit my account?
+      - I need to change osme of my user details
+      - help me to edit the bloody info included on my user profile
+      - I do not know what to do to edit my account
+      - how to edit the information on my account?
+      - I do not know how I can chanbe the info on my user account
+      - i do not know how i can modify my user account
+      - I want help editing the information on my account
+      - I want assistance changing my personal details
+      - help me modify the data included on my user profile
+      - I don't know what I have to do to edit my account
+      - I do not know how I could edit my personal information
+      - how could I edit my account?
+      - help to edit my personal information
+      - I do not know how to correct the details on my account
+      - I have got to edit the information on my account
+      - how do I update the information on my user profile?
+  - intent: get_invoice
+    examples: |
+      - I do not know how I could get the invoices from 7 months ago
+      - how do I get the invoices from 2 purchases ago?
+      - send me the invoices from one purchases ago
+      - help getting the invoice from last month
+      - I do not know how to get the invoice from April
+      - help me to get the invoice from 8 months ago
+      - help me getting my invoices
+      - I need help to get the invoices from my last purchase
+      - will you send me the invoices from four months ago?
+      - could you send me my invoices?
+      - I want assistance to get the invoices
+      - help to get the invoices from my last purchase
+      - where to get the invoice from 5 purchases ago?
+      - I want to get my invoice
+      - I want assistance to get the invoice from my last purchase
+      - I need assistance to get my invoice
+      - how do I get the invoices?
+      - how can I get the invoices from 9 purchases ago?
+      - I do not know what I need to do to get the invoice
+      - send me the invoices from nine months ago
+      - help me to get the invoice from my last purchase
+      - help me getting the invoices
+      - I don't know what to do to get the invoice from March
+      - getting invoice from last month
+      - I would like to get the invoice from nine months ago
+      - I am trying to get the invoice from my last purchase
+      - send me the invoice
+      - is it possible to get my invoice?
+      - I am trying to get the invoice from 2 purchases ago
+      - I am calling to get my invoices
+      - getting invoices from ten months ago
+  - intent: get_refund
+    examples: |
+      - help me getting a refund
+      - I need a refund
+      - help me getting a refund of money
+      - I want assistance getting refunds of money
+      - how can I get a refund of money?
+      - I need help getting a refund
+      - I want help to get a refund of money
+      - could you help me get my money back?
+      - I don't know what I have to do to get a refund of money
+      - assistance to get a refund
+      - I don't know what I have to do to get my money back
+      - I do not know what I have to do to get my money back
+      - I do not know how I could get refunds
+      - assistance to get refunds
+      - help me get a refund
+      - I don't know how I can get my money back
+      - I want assistance getting a refund of money
+      - I do not know how I could get a refund of money
+      - how do I get a refund?
+      - could you help me getting refunds?
+      - when will I get a refund?
+      - I don't know how I can get a refund
+      - I want to get refunds
+      - I am trying to get my money back
+      - I don't know what to do to get refunds of money
+      - I need help getting refunds of money
+      - I don't know what to do to get my money back
+      - could you help me get refunds?
+  - intent: newsletter_subscription
+    examples: |
+      - I can't subscribe to hte newsletter
+      - I am trying to subscribe to your company newsletter
+      - I want to unsubscribe to your newsletter, can you help me?
+      - I do not know what to do to sign up to your newsletter
+      - I can't cancel the company newsletter subscription
+      - I try to unsubscribe to the corporate newsletter
+      - I donot know how I can unsubscribe from your newsletter
+      - can you help me to subscribe to your corporate newsletter?
+      - help me subscribing to the corporate newsleter
+      - tell me about cancel the subscription to ur newsletter
+      - check the status of my company newsletter subscription
+      - information about the company newsletter subscription
+      - can ya help me unsubscribe to the nedwsletter
+      - tell me about the company newsletter subscription
+      - help cancelling the subscription to your company newsletter
+      - I need help signing up to the company newsletter
+      - could I cancel the company newsletter subscription?
+      - I do ont know how to sign up to the newsletter
+      - I'm trying to unsubscribe to ur newsletter
+      - help me cancel the company newsletter subscription
+      - I need help cancelling the subscription to your newsletter
+      - cancel the subscription to your company newsletter
+      - i have got to subscribe to ur newsletter will  uhelp me
+  - intent: payment_issue
+    examples: |
+      - issues with payments
+      - I need help solving issues with payments
+      - I need assistance solving payment issues
+      - help me to report an issue with payments
+      - could you help me to report an issue with payment?
+      - is it possible to report a payment issue?
+      - I want help solving issues with payments
+      - could you help me report payment issues?
+      - where could I report an issue with payments?
+      - can you help me solving an issue with payment?
+      - issue with payments
+      - help me to solve issues with payment
+      - help solving a payment issue
+      - I don't know how I could report payment issues
+      - help to solve payment issues
+      - I need help to solve a payment issue
+      - I don't know how I can report a payment issue
+      - can you help me solve issues with payment?
+      - I am trying to report payment issues
+      - I want assistance to solve payment issues
+      - help me report issues with payment
+      - I don't know how I can report an issue with payments
+      - help me to report a payment issue
+      - I have to report a payment issue
+      - I am trying to report issues with payment
+      - can you help me to solve issues with payment?
+      - help me solving issues with payments
+  - intent: place_order
+    examples: |
+      - I don't know how I can make a purchase
+      - what do I have to do to buy something?
+      - help me to make a purchase
+      - help buying a few of your item
+      - help me buy several items
+      - I do not know what I need to do to buy several items
+      - where to buy some of your item?
+      - assistance buying some items
+      - help me buy several of your item
+      - where can I make an order?
+      - I do not know how I can buy something
+      - I don't know how I can buy several of your item
+      - can you help me to make a purchase?
+      - where do I buy several items?
+      - buy item
+      - I do not know how to buy a few of your item
+      - assistance making an order
+      - would it be possible to buy several items?
+      - I don't know what I have to do to buy a few of your item
+      - can you help me to buy something?
+      - where could I buy several items?
+      - help me buying some of your item
+      - I do not know how to buy several of your item
+      - I need help to buy several of your item
+      - I have to buy some of your item
+      - I do not know what to do to buy several items
+      - could you help me buying some items?
+      - I don't know how to buy a few of your item
+      - I need assistance buying several of your item
+      - help me to buy an item
+  - intent: recover_password
+    examples: |
+      - can you tell me more about a forgotten password?
+      - where could I get information about forgotten passwords?
+      - I want to know about forgotten passwords
+      - I try to reset my pwd
+      - what do I have to do to recover my password?
+      - I have a problem with a forgotten password
+      - give me information about my password retrieval
+      - I don't know how I could recover my password
+      - can you tell me about my key recovery?
+      - i cannot remembre the pwd of my account i wanna reset it
+      - how could I find information about a forgotten password?
+      - i cannot remember my account pwd i need help to restore it
+      - how to recover my password?
+      - I can't recover my password
+      - I want help restoring my account key
+      - need assistance to retrieve my user account pin
+      - can ya tell me more about a pin code recovery
+      - I try to recover my password
+      - what do I need to do to recover my password?
+      - I am looking for information about a forgotten password
+  - intent: registration_problems
+    examples: |
+      - need help to report a registration error
+      - help me report registration issues
+      - I want assistance reporting registration issues
+      - report issue with registration
+      - i cannot notify of a registration error
+      - I would like to report registration issues
+      - can you help me to report a registration issue?
+      - there are issues with the sxignup
+      - could I report a registration issue?
+      - how do I report a signup error?
+      - could you help me reporting registration issues?
+      - informing of problems with sign-up
+      - I have issues registering
+      - could I report registration issues?
+      - help to report registration issues
+      - I need to report fucking registration issues
+      - could uhelp me inform of a registration error
+      - what do I have to do to report a registration issue?
+      - what do i need to do to informof sign-up issues
+      - need help reporting a sign-up  problem
+      - I don't know how to report registration issues
+      - I need assistance regarding our sign-up
+      - i need assistance notifying of sign-up errors
+      - I need assistance to report sign-up issues
+      - I do not know how I could report registration issues
+      - I can't report registration issues
+      - i cannot sign up help me report sign-up problems
+  - intent: review
+    examples: |
+      - I want assistance to leave a review for your company
+      - where can I leave a review for your services?
+      - could you help me to submit some feedback?
+      - help submitting some feedback for your services
+      - help me leave a review
+      - help me submit some feedback for your services
+      - can I submit some feedback for your services?
+      - I want help leaving a review for your company
+      - I have to leave a review for a service
+      - would it be possible to leave a review for your services?
+      - I don't know what to do to submit some feedback
+      - assistance submitting some feedback for your services
+      - I need help leaving a review for your company
+      - do you have an e-mail to submit a review?
+      - how do I submit some feedback for your company?
+      - I am calling to submit some feedback for your company
+      - where can I submit some feedback for your company?
+      - is it possible to submit some feedback for your company?
+      - help me leaving a review for your company
+      - what do I need to do to submit some feedback for a service?
+      - how can I submit some feedback?
+      - I am trying to submit some feedback
+      - how do I leave a review for a service?
+      - can you help me leave a review for your services?
+      - could you help me leave a review for your company?
+      - could you help me to submit some feedback for your company?
+      - I have to submit some feedback
+      - can you help me to leave a review for a service?
+      - how can I leave a review?
+      - I need help to leave a review for your services
+      - I have to submit some feedback for your company
+      - I don't know what I have to do to submit some feedback
+  - intent: set_up_shipping_address
+    examples: |
+      - I don't know how I could set a new shipping address up
+      - why I cannot set a different shipping address valid up
+      - can you help me setting up a different shipping address?
+      - why I can't set a new shipping address valid up
+      - can I set a different shipping address up?
+      - I want assistance setting another shipping address up
+      - help me to set another shipping address up
+      - where to set a different shipping address up?
+      - can you help me to set another shipping address up?
+      - I have got to set a new shipping address up
+      - would it be possible to set up a new shipping address?
+      - my new shipping address isn't valid
+      - set up another shipping address
+      - set a different shipping address up
+      - can I set up a new shipping address?
+      - could you help me setting a different shipping address up?
+      - where do I set a new shipping address up?
+      - set up a different shipping address
+      - I have to set a new shipping address up
+      - I want assistance to set up another shipping address
+      - I need assistance setting up a different shipping address
+      - help to set up a new shipping address
+      - I don't know how I could set up another shipping address
+      - how do I set another shipping address up?
+      - how to set a different shipping address up?
+      - I have got to set another shipping address up
+      - help me set another shipping address up
+      - help me to set up another shipping address
+      - I don't know how I can set up another shipping address
+      - how can I set up a different shipping address?
+      - I do not know how to set up another shipping address
+      - how can I set another shipping address up?
+  - intent: switch_account
+    examples: |
+      - I need assistance switching to another account
+      - I don't know what I need to do to switch user
+      - I do not know what I need to do to switch user
+      - i do not know how i can change to a new profile
+      - I need to switch to another account
+      - I am trying to switch user
+      - I need help to use another account
+      - I have to switch user
+      - I do not need this user,how to change to my new one?
+      - I do not know what to do to change to a new profile
+      - I need assistance to change to a new user account
+      - help changing to my new user account
+      - can you help me to use another account?
+      - i  cant switch to another user profile
+      - want assistance changing to a different profile
+      - I need to switch to my new user account
+      - where can I switch user?
+      - assistance to switch to a new uxer account
+      - i need assistance changing to a different user account
+      - I can't change to a new fucking user account
+      - I don't know what to do to switch to another account
+      - I no longer use this account, I try to change to my new one
+      - use another account
+      - need assistance using a new user account
+      - I do not know what to do to switch to another account
+      - help me switching to another account
+      - how to switch user?
+      - help me to change to a new profile
+      - is it possible to switch to a new user profile?
+      - where do I switch to another account?
+      - i dont use these profile help changing to my other one
+      - help using another user profile
+      - need help to use a different profile
+      - I do not know how to switch to another account
+      - where can I switch to another account?
+      - i have to use naother user profile
+  - intent: track_order
+    examples: |
+      - is it possible to track my order?
+      - help checking the status of my order
+      - I have to track an order
+      - how do I track the last order?
+      - I try to track an order
+      - help tracking my order
+      - I do not know how I can track an order
+      - how can I check the status of my order?
+      - I need to track my last order
+      - I have got to track the last order
+      - would it be possible to track my last order?
+      - check the status of my order
+      - I need to track my order
+      - I want to track an order
+      - ETA of order
+      - what do I need to do to track my order?
+      - when will my order arrive
+      - could you help me to check the status of my order?
+      - can you help me to track the last order?
+      - I would like to track an order
+      - I want help to check the status of my order
+      - I don't know how I can track my last order
+      - I need assistance checking my order ETA
+      - I cannot check the status of my order
+      - could I check the status of my order?
+      - I don't know what to do to track my last order
+      - where could I track the last order?
+      - I need to check my order ETA
+      - I want assistance tracking the last order
+      - could I track the last order?
+      - checking ETA of order
+  - intent: track_refund
+    examples: |
+      - assistance to check the status of the refund
+      - could I check the status of my refund?
+      - what do I have to do to check the refund status?
+      - I can't check if there is anything new on my refund
+      - help me to check the status of my refund
+      - could you show me the refund status?
+      - I don't know how I can check the refund status
+      - assistance to check if there is any updates on my refund
+      - would it be possible to check the status of the refund?
+      - help me check my refund status
+      - I want help checking if there is anything new on my refund
+      - how could I check my refund status?
+      - I need assistance to check my refund status
+      - how can I check the status of my refund?
+      - I want assistance checking my refund status
+      - help checking if there is anything wrong with my refund
+      - how can I check the refund status?
+      - I would like to check the refund status
+      - I try to check my refund status
+      - I do not know what to do to track the refund
+      - I need help checking if there is any updates on my refund
+      - I want assistance checking the status of my refund
+      - I do not know how I could check the status of my refund
+      - I am trying to check the status of my refund
+      - help checking the refund status
+      - will you show me my refund status?
+      - help to track the refund
+      - I am trying to track the refund
 
